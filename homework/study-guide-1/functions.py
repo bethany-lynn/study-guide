@@ -13,7 +13,7 @@ PART ONE:
     Hi Balloonicorn
 
     >>> print_product(3, 5)
-    15 
+    15
 
     >>> repeat_string("Balloonicorn", 3)
     BalloonicornBalloonicornBalloonicorn
