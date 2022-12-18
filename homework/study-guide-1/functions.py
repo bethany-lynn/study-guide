@@ -98,7 +98,7 @@ main_string()'''
 
 # 5. Write a function called 'print_sign' that takes an integer and prints
 #    "Higher than 0" if higher than zero and "Lower than 0" if lower than zero.
-#    If the integer is zero, print "Zero".
+#    If the integer is zero, print "Zero". 
 '''def print_sign():
     number = int(input("provide number: "))
     if number > 0:
