@@ -91,11 +91,23 @@ print(print_product(3, 4))'''
 
 # 4. Write a function called 'repeat_string' that takes a string and an integer
 #    and prints the string that many times
+'''def main_string():
+   print("meow".join(["woof"]*3))
+main_string()'''
 
 
 # 5. Write a function called 'print_sign' that takes an integer and prints
 #    "Higher than 0" if higher than zero and "Lower than 0" if lower than zero.
 #    If the integer is zero, print "Zero".
+'''def print_sign():
+    number = int(input("provide number: "))
+    if number > 0:
+        print("Higher than 0.")
+    elif number < 0:
+        print("Lower than 0.")
+    elif number == 0:
+        print("Zero.")
+print_sign()'''
 
 
 # 6. Write a function called 'is_divisible_by_three' that takes an integer and
