@@ -70,15 +70,23 @@ PART TWO:
 
 # 1. Write a function called 'hello_world' that does not take any arguments and
 #    prints "Hello World".
-
+'''def hello_world():
+    print("hello_world")
+hello_world()'''
 
 
 # 2. Write a function called 'say_hi' that takes a name as a string and
 #    prints "Hi" followed by the name.
-
+'''def say_hi():
+    name = input("What's your name? ")
+    print(f"Hi, {name.title()}")
+say_hi()'''
 
 # 3. Write a function called 'print_product' that takes two integers and
 #    multiplies them together. Print the result.
+'''def print_product(num1, num2):
+    return num1 * num2
+print(print_product(3, 4))'''
 
 
 # 4. Write a function called 'repeat_string' that takes a string and an integer
@@ -137,11 +145,11 @@ PART TWO:
 
 # END OF PRACTICE: You can ignore everything below.
 
-if __name__ == "__main__":
-    import doctest
+# if __name__ == "__main__":
+#     # import doctest
 
-    print
-    result = doctest.testmod()
-    if not result.failed:
-        print("ALL TESTS PASSED. GOOD WORK!")
-    print
+    # print
+    # result = doctest.testmod()
+    # if not result.failed:
+    #     print("ALL TESTS PASSED. GOOD WORK!")
+    # print
